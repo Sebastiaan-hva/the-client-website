@@ -1,1 +1,52 @@
 /* CSS */
+:root{
+    --grey: #8B8B8B;
+    --thick:800;
+    --thin:400;
+}
+
+@font-face{
+    font-family:DarkerGrotesque;
+    src: url(../assets/fonts/DarkerGrotesque-VariableFont_wght.ttf);
+}
+
+*{
+    font-family:DarkerGrotesque;
+}
+
+h2{ 
+    font-weight:var(--thick);
+    text-transform: uppercase;
+}
+
+p{
+    color:var(--grey);
+    font-weight:var(--thin);
+}
+
+article {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: auto auto;
+    min-height: calc(6em * var(--duration));
+    header {
+        grid-column: 2;
+        h2, p {
+            margin: 0;
+        }
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        background: red;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    footer {
+        grid-column: 2;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
