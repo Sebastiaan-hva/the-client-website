@@ -25,9 +25,11 @@ p{
 }
 
 article {
+    margin-left:10%;
+    max-width: 40em;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 100px 1fr;
     grid-template-rows: auto auto;
     min-height: calc(6em * var(--duration));
     header {
@@ -42,11 +44,22 @@ article {
         background: red;
         grid-column: 1;
         grid-row: 1;
+        justify-self: center;
+        margin-top:1.25em;
+        border-radius:50%;
+        
     }
     footer {
         grid-column: 2;
         align-items: center;
         display: flex;
         justify-content: space-between;
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none; 
+            margin-right:0.75em;
+        }
     }
 }
