@@ -1,8 +1,8 @@
 /* CSS */
 :root{
-    --grey: #8B8B8B;
+    --grey: #666666;
     --thick:800;
-    --thin:400;
+    --thin:600;
 }
 
 @font-face{
@@ -24,9 +24,52 @@ p{
     font-weight:var(--thin);
 }
 
+nav{
+    ul{
+    display:flex;
+    /* justify-content:space-around; */
+    align-items:center;
+    max-width:500px;
+    list-style-type: none;
+    max-height:20px;
+    }
+}
+
+.mainnav{
+    font-size:1.5em;
+    li{
+        margin-right:2%;
+        text-transform: uppercase;
+    }
+}
+
+.carousel{
+    display:flex;
+    margin-left:5%;
+    margin-bottom:2%;
+    font-size:1.1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    }
+    li{
+        display:grid;
+        grid-template-rows: 1fr 40px;
+        margin-left:0%;
+        align-content: center;
+        justify-content: middle;
+        max-height:60px;
+        min-width:50px;
+        
+        h4, date{
+            margin-left:25%;
+            margin-bottom:10%;
+        }
+    }
+
 article {
+    border-radius: 0.875em;
+    margin-bottom:1%;
     margin-left:10%;
-    max-width: 40em;
+    max-width: 35em;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
     display: grid;
     grid-template-columns: 100px 1fr;
@@ -36,6 +79,7 @@ article {
         grid-column: 2;
         h2, p {
             margin: 0;
+            margin-top:0.50em;
         }
     }
     img {
@@ -51,8 +95,8 @@ article {
     }
     footer {
         grid-column: 2;
-        align-items: center;
         display: flex;
+        align-items: center;
         justify-content: space-between;
         ul{
             list-style-type: none;
