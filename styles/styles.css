@@ -107,7 +107,7 @@ nav ul{
 
 article {
     border-radius: 0.875em;
-    margin-bottom:0.5%;
+    margin-bottom:9px;
     margin-left:10%;
     max-width: 33em;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
