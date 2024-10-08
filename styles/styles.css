@@ -164,6 +164,7 @@ article {
             }
         }
         a{
+            color:grey;
             justify-self:right;
             text-decoration: none;
             margin-top:3em;
@@ -176,19 +177,23 @@ article {
     }
 }
 
-.carousel li:hover, article:hover {
+
+article:hover{
     background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(100,201,222,0.46262254901960786) 100%);
     scale:1.05;
     z-index:2;
+}
+
+.carousel li:hover, article:hover {
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
     p, footer{
         color:black;
-        font-weight:bold;
+        font-weight:600;
         transition-duration: 400ms;
         transition-timing-function: ease-in;
         
         a{
-            color:rgb(111, 82, 168);
+            color:rgb(19, 17, 143);
             scale:1.2;
             transition-duration: 200ms;
         }
