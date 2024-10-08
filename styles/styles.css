@@ -14,6 +14,25 @@
 *{
     font-family:DarkerGrotesque;
 }
+main{
+    max-width:1000px;
+}
+
+aside{
+    display:flex;
+    flex-direction:column;
+    height:720px;
+    justify-content:space-around;
+    position:absolute;
+    margin-left:25px;
+    border-right: 2px dotted grey;
+    border-collapse: seperate;
+    border-spacing:rem;
+    @media (max-width: 40em) {
+        display:none;
+        margin:0px;
+    }
+}
 
 h2{ 
     font-weight:var(--thick);
@@ -27,11 +46,16 @@ p{
 
 nav ul{
     display:flex;
-    /* justify-content:space-around; */
     align-items:center;
-    max-width:500px;
+    max-width:400px;
     list-style-type:none;
-    max-height:20px;
+    
+    margin-bottom:0px;
+    li{
+        align-self:flex-start;
+        flex-grow:1;
+        max-height:20px;
+    }
 }
 
 .mainnav{
@@ -39,6 +63,9 @@ nav ul{
     li{
         margin-right:2%;
         text-transform: uppercase;
+        @media (max-width: 40em) {
+            font-size:0.8em;
+        }
     }
 }
 
@@ -60,6 +87,7 @@ nav ul{
         min-width:50px;
         
         h4, date{
+            margin-top:5%;
             margin-left:25%;
             margin-bottom:10%;
         }
@@ -117,6 +145,7 @@ article {
         display: grid;
         grid-template-rows: 50px 50px;
         grid-template-columns: 1fr 100px;
+        
         ul{
             list-style-type: none;
             time{
@@ -131,9 +160,12 @@ article {
             grid-column-start:2;
         }
     }
+    @media (max-width: 40em) {
+        margin-left:1%;
+    }
 }
 
-li:hover, article:hover {
+.carousel li:hover, article:hover {
     background-color: var(--blue);
     box-shadow: 0 0 12px rgba(0, 0, 0, .5);
     p, footer{
@@ -144,6 +176,8 @@ li:hover, article:hover {
         
         a{
             color:rgb(111, 82, 168);
+            scale:1.2;
+            transition-duration: 200ms;
         }
     }
 }
