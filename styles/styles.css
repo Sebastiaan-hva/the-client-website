@@ -189,8 +189,9 @@ article:hover{
     p, footer{
         color:black;
         font-weight:600;
-        transition-duration: 400ms;
+        transition-duration: 350ms;
         transition-timing-function: ease-in;
+        font-size:1.05em;
         
         a{
             color:rgb(19, 17, 143);
