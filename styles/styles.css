@@ -4,7 +4,6 @@
     --thick:770;
     --superthick:850;
     --thin:550;
-    --blue:#c0d4ff;
 }
 
 @font-face{
@@ -178,8 +177,10 @@ article {
 }
 
 .carousel li:hover, article:hover {
-    background-color: var(--blue);
-    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(100,201,222,0.46262254901960786) 100%);
+    scale:1.05;
+    z-index:2;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
     p, footer{
         color:black;
         font-weight:bold;
@@ -192,4 +193,8 @@ article {
             transition-duration: 200ms;
         }
     }
+}
+
+.mainnav ul li:hover{
+    color:rgb(255, 58, 101);
 }
