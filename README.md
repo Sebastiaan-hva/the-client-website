@@ -11,4 +11,5 @@ Er zijn cards die het programma weergeven. Verder zijn er nog hover-effects.
 
 ![image](https://github.com/user-attachments/assets/e66ce85c-3d17-48e9-9850-2cadd1abe0bd)
 ![image](https://github.com/user-attachments/assets/49a4021b-99cd-40a3-a70e-15df8a877583)
+
 Ik heb voor deze sprint alleen HTML/CSS gebruikt voor deze opdracht.
