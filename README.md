@@ -1,28 +1,10 @@
-# The Client - Website
+De opdracht van deze sprint was voor Triple voor het Mediahuis de programma pagina redesignen.
 
-Ontwerp en maak een website voor een opdrachtgever en bespreek het resultaat tijdens de Sprint Review.
+**link site: https://sebastiaan-hva.github.io/the-client-website/**
 
-De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com/fdnd-task/the-client-website/blob/main/docs/INSTRUCTIONS.md)
-
-
-
-## Inhoudsopgave Readme
-
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
-
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-
-
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
+De website volgt de structuur van de Figma file die we gekregen hebben. (https://www.figma.com/design/WmFJeLpn1iJ394uKrEalzr/Mediahuis-Gids-Design?node-id=0-1&node-type=canvas&t=1ByqtMkepZy6X7EG-0)
+Er is een navigatie om naar andere pagina's te gaan en een navigatie om van dag te wisselen.
+Er zijn cards die het programma weergeven. Verder zijn er nog hover-effects.
+![image](https://github.com/user-attachments/assets/e66ce85c-3d17-48e9-9850-2cadd1abe0bd)
+![image](https://github.com/user-attachments/assets/49a4021b-99cd-40a3-a70e-15df8a877583)
+Ik heb voor deze sprint alleen HTML/CSS gebruikt voor deze opdracht.
